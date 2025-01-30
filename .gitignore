@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo  # For older Python versions
+.DS_Store  # For macOS Finder
+*.swp  # Swap files (e.g., from Vim)
+.cache/  # General cache directories
+*/.cache/*  # Cache directories within subfolders
+.pytest_cache  # pytest cache
+.coverage  # Coverage reports
+htmlcov/*  # Coverage reports
+.mypy_cache  # Mypy cache
+instance/ # Flask instance folder
+venv/ # Virtual environment (if you don't want to share it)
+.env  # Environment variables (NEVER commit this!)
+db.sqlite3 # or any other database file if you don't want to share it.
+*/migrations/*  # All migration files
+!*/migrations/__init__.py # Except __init__.py files
